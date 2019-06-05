@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03760110B091E68219A3F8F99F5D9257 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DECC3FA45738FE46BD5624337523FF /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0957074D4946DEA106E71DBC2ED97125 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5E2A31A9B6FA31D86913EFE8CDB5D /* AFAutoPurgingImageCache.m */; };
+		0AC69DB42387C75431772FCD85E77E14 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CF6A2CB32FAD110CBC7FDAA8F5B6F /* UIActivityIndicatorView+AFNetworking.m */; };
+		0B1098FB9BA9E6027A5326B6E724ACDB /* ClutchMobGetTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E1898A66CDD6FFC94A117A6F60BB2C /* ClutchMobGetTokenResponse.m */; };
+		0BE1AFBD1F4545D10076DE25EC561272 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A0E54D5EB56767B27C264A5521B82 /* UIButton+AFNetworking.m */; };
+		1183366CBC8FF8DCE67F6C938424C13A /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A80D9DC3EBA2BD59D85823B819C9B26F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11B7AD13B589DCD4947267755B959A00 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D39B21B4849887611AF9063F1C32C31E /* AFNetworkActivityIndicatorManager.m */; };
+		126D78B4B2D94E9CCA38BD1D71AD6919 /* Pods-ClutchMobileAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972338097B3F672E8B236502748E308E /* Pods-ClutchMobileAPI_Tests-dummy.m */; };
+		1C2E03B50F8E420E95142CAD20559128 /* ClutchMobListSubscriptionListsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DFED0D5CDD7DD84DEE6AF01F9865DC36 /* ClutchMobListSubscriptionListsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E301A328C7436D96E8C7F83D7385A5 /* Pods-ClutchMobileAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E75DF8FAF80B7F6590335A9B7505D34 /* Pods-ClutchMobileAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2322F574FD2D311F0E5DC64B41DA9E46 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475FEE8A3A1335A102149D45C64FCFB /* AFNetworking-dummy.m */; };
+		23970E56AA6AAFD72C54A99D95A0B930 /* ClutchMobileAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D656337448518C75ECAF009F4340EDF1 /* ClutchMobileAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BAE704D80EB1EB00E8AD2B7284BFF0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C040570BC41FBA560B3A3781090F5429 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B81585E9941C5215CA0DE02B18B1886 /* ClutchMobListFieldsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E10C09B0EFD35B20F1E3137A417EEE /* ClutchMobListFieldsResponse.m */; };
+		2BE8C3875149F0983899A237DEC0D630 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 112E556CE822FFB4315E180F032CE79B /* AFHTTPSessionManager.m */; };
+		2BFE77ACCD3A26F3A8FB561C2B0CBEA7 /* ClutchMobBasicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5160ECD11E763B6CE3D5728D032B3 /* ClutchMobBasicResponse.m */; };
+		2C3501C9A2D6EC9AF14366A00FC1EBB0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C46BF32442A1135CE197A34568A199A /* AFSecurityPolicy.m */; };
+		2C4D6F1C0BFB524FC877CCB9935270FB /* ClutchMobRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9391E424E587915B057DE92DBD5F27E /* ClutchMobRegisterResponse.m */; };
+		394922DA356F67BB8E9F59DBA22788B0 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A59C87DB25F0B3BEDFC9819146737E /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B72168E0471BCCA675316F434E6309A /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A40902337D9935689B38EB04F6893D6B /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E00573A4CACBE826D25135875C6F3E4 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C92E7CAF7A983A4FE801FA47C33BBA66 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F56102CA7579C84B55BB943E0D2CBE2 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2FD872C765B8D0F7376FE9BB9421F /* UIProgressView+AFNetworking.m */; };
+		4A1417AF315966324D24AF074B1E9D88 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A72729C1DAA8CE050CC613C1B2C81066 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FDDE4F974698A2CE0CEE9BDF7699B68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC66F3B348F8B165453B131F6E0BFEC /* CoreGraphics.framework */; };
+		523D9F700D286A76454F1DD547E9443C /* ClutchMobSubscriptionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DA6593ECEE1267033E50A36D3D5C6A /* ClutchMobSubscriptionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639A383AB1997536003285834D72F051 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D382C7C00AECB9300B5353E69AD0351 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687FD04FEAFE2C7B06220D69E626D6CE /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAB25F9538BD91CE92501121227669C /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6EC17C6F98E8B5979DC6871D44CF8A /* ClutchMobConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 836B43DECCDD4E1967A1C66DF27C48F4 /* ClutchMobConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D548145B22BB5FE22DBEB33B8972848 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D9023906BDF78712ED36026D054A92 /* Security.framework */; };
+		70332DFCEBB1A0538FA67CD834DE6DC2 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F5D7EDC84404E7960D36DF73F7CE89 /* AFURLSessionManager.m */; };
+		7346246CC8456D74F76A6092785541D7 /* ClutchMobDemographicField.h in Headers */ = {isa = PBXBuildFile; fileRef = C2477F37327F02DDCD438562D9EF5805 /* ClutchMobDemographicField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771739A370C0A1194352CC4F32465A25 /* ClutchMobGetTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8879BAE14B5B2328A25426E9F1BF8D /* ClutchMobGetTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B58F6D035390A553D341DA5043D5B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */; };
+		7B78A403C7E088FB2EF8F84CDB581E75 /* ClutchMobSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = D08BE93AFAC22BCD10FA818D872891FC /* ClutchMobSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802DB88571A957C599E32DFC3067A859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */; };
+		83A0CE7C533A9309DB65CD0A1CCBEC2A /* ClutchMobProfileViewResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8590F8C95A1E64C628E46F003A4E9E2B /* ClutchMobProfileViewResponse.m */; };
+		88BADC0FE3407C90020DC2E773CF49F4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A458885EBFB883695A9539FB7D025D9C /* AFURLResponseSerialization.m */; };
+		8905581A1156D922B469116DEC22B560 /* ClutchMobCaptchaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1739735275E97F0D2EA314ACC493317E /* ClutchMobCaptchaResponse.m */; };
+		909E65FE918C87DB67D5F4031B73E23E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5AA5E75B5225CABA5D67542FC40996 /* MobileCoreServices.framework */; };
+		96EB8ECEF89CF095DFBB2114C66A0BEC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BAF235D6C6151852641F560F429049 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B26998B6675BD887A9E4B8D79FAC7F /* ClutchMobListSubscriptionListsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B3FDAC40E27CDCE9F46109884C7116 /* ClutchMobListSubscriptionListsResponse.m */; };
+		99AFC32DE6932AED9B73E23C99BF243E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB9A9380AA26CFC887F7DB38B3E3A /* AFImageDownloader.m */; };
+		9A5A186A2D5B7F2A1A27A9778798B733 /* ClutchMobSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4722CFD522370E8E9534FBD67D3FD52F /* ClutchMobSegment.m */; };
+		9B4CCED4958CB57781A39B2276CD4570 /* ClutchMobClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C4F74CBA040FB140F5491812E88754 /* ClutchMobClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EEA38B7403F720407C2D6F7A1473F16 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C30D0A43736AB87A858498B0EBBB2A9 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F53687CDD18EDAE3AC193793E930BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */; };
+		9FF6C2D88B6F9B3AD3A9E0E56E409217 /* Pods-ClutchMobileAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFF3DD4CAF3CCEFC0CB999BBB3E951 /* Pods-ClutchMobileAPI_Example-dummy.m */; };
+		A47CF1690BE2B3BE94710B49BE077282 /* ClutchMobDemographicField.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EA0925E714EF20A83A335BDC6A5CF /* ClutchMobDemographicField.m */; };
+		A6BFD3F52D7CEBAB3A19FC94845D56CA /* Pods-ClutchMobileAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7AD4878ECFE5ED0A7E82717A421882 /* Pods-ClutchMobileAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70563660986C955E813E136DBBF5236 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F5EAB2B8EBAF56EB6FAAEF85C0DEF9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76E71AC40B38F8DADC18944469F9BD7 /* ClutchMobModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47159BC79DAFCF8CC17F859D128E446 /* ClutchMobModel.m */; };
+		B15F62844F9F93A81BDD97BA997B0D4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCA9F9F50F9A195E2B327306DECEB86 /* SystemConfiguration.framework */; };
+		B16B6009BBD9B7C5D3C8220BBE7579A0 /* ClutchMobProfileViewResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23090D0BF1996A5B1A5B5A45FF9455BF /* ClutchMobProfileViewResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EF00F5784F6ABB87B2AE0F6624987D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33423D51FA97C3AF17F8045E98874C0E /* AFNetworkReachabilityManager.m */; };
+		B4CBF5367C788606EFF71C7C2A0EFCD9 /* ClutchMobModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F47B2B8C0F07651B66B74A874DD6F8 /* ClutchMobModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D91D1BD4D345ACCA8A68574A51402A /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BA51B1CD3F539E7009DD576A24446B /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79E6AD5BFBD3B2E9319650F5131A59C /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A38ED7DD61CEECDF8143492B3D2BA43 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19BBA932C8C58458241A12380947E16 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CC893625440CDF948503F98D627F4 /* AFURLRequestSerialization.m */; };
+		C3F26FE59CD2A3DA5C6652681D60DE91 /* ClutchMobCaptchaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E378D70A04A02277A1A6C32C81D336 /* ClutchMobCaptchaResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F7A454D6FC7185FAC9A4D6D21CAB0F /* ClutchMobClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 498664D3B449A5837971B4B1A9332BBA /* ClutchMobClient.m */; };
+		C860803EFE2211C1F381F22011B20727 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 780C48148F90D2812ECF06AB7C3CD6AF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C930FF57A44425E7E27C12F270FCD6B1 /* ClutchMobRegisterResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4933B223861E9061D6F30615EAE1B131 /* ClutchMobRegisterResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0BA56D7BA0949F47648EA8ADA4669E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */; };
+		CCC9E08DD50A9AC4E57BC0B0B1611B77 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAB3563BDC2BD57BFD91BA6D068B038 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE77960785272918CB9A20C35B75E8A5 /* ClutchMobSubscriptionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875AA2748BDB34F717EC58585A08FCA /* ClutchMobSubscriptionList.m */; };
+		D127F3ECC81EB2E08CE9435AF24CCAF4 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C42C6882E9A7E08BDA43641056B21E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94B2A37FC96BE94D8FD5E4E3D2983BA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B07DAA25DDACF2F267D16E34C08A45DC /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1A6DD6CE64AE9764BC63D613A4FDF8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 15065CA242F31C9C416EFF4B7BAA2F6B /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE31A969A113E4E9E1D3B39C4333BD3 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 936DD63C5343753610AC4EE3FE4C7183 /* UIRefreshControl+AFNetworking.m */; };
+		DE56753C58D46A10761C5ADC7D4917F9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 349884ACE31F970ED293E2406E88B9C5 /* UIImageView+AFNetworking.m */; };
+		E29EC5F78FC668093660D3C5B6BA2E24 /* ClutchMobListFieldsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4710E2429B65EBBE83BC655722E364 /* ClutchMobListFieldsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3557DF9F7C6966ADD524DB4F4E451DB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF00DC6C0D3D8674AC6937A8BB64B4 /* UIWebView+AFNetworking.m */; };
+		E6A07A24FBC35BE10BF21C4FAFDB1ADD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4380AEF80628ADE3D82E532B4AC4E6E9 /* AFNetworking.framework */; };
+		E6F4C091A5BF7EECE2DD5B6EEC5B13F1 /* ClutchMobBasicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C448BDD7F9B8CC95CDCD0E1D4DC5C23 /* ClutchMobBasicResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F1C3AE93A968E328E7FDDB1E16D9A3 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A56D9A44726979698F660DDF09D1BBF1 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC2504ABABC8EFE16004E15274DBB5BD /* ClutchMobileAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5E7B0803818E62B9FD47348C2A238B /* ClutchMobileAPI-dummy.m */; };
+		FBBFA108618E8D2B174459E4703D39F3 /* ClutchMobConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27E73804C19D8D975B4AF03A895E3F /* ClutchMobConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12299BC40339CBFA4B7F74DFC2F4CF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571021EB556A8437F3BB0AD1E3C48B31;
+			remoteInfo = ClutchMobileAPI;
+		};
+		4B51EA3D157D830FA8B1AD372060B42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		AB900C8F52D52A0B309F8D531C56B7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7634D897FD82892577969103C27A4CD;
+			remoteInfo = "Pods-ClutchMobileAPI_Example";
+		};
+		D7ECFB494CE7E3A14F56BE59E3711F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0449C59BA44B9F7E5F00208CCEC1C337 /* Pods-ClutchMobileAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClutchMobileAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		112E556CE822FFB4315E180F032CE79B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1475FEE8A3A1335A102149D45C64FCFB /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		15065CA242F31C9C416EFF4B7BAA2F6B /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		15E1898A66CDD6FFC94A117A6F60BB2C /* ClutchMobGetTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobGetTokenResponse.m; path = ClutchMobileAPI/Classes/ClutchMobGetTokenResponse.m; sourceTree = "<group>"; };
+		16BAF235D6C6151852641F560F429049 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		1739735275E97F0D2EA314ACC493317E /* ClutchMobCaptchaResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobCaptchaResponse.m; path = ClutchMobileAPI/Classes/ClutchMobCaptchaResponse.m; sourceTree = "<group>"; };
+		1C46BF32442A1135CE197A34568A199A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		23090D0BF1996A5B1A5B5A45FF9455BF /* ClutchMobProfileViewResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobProfileViewResponse.h; path = ClutchMobileAPI/Classes/ClutchMobProfileViewResponse.h; sourceTree = "<group>"; };
+		273DBD133ECBC1087E1C2A367FC9D99C /* Pods-ClutchMobileAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClutchMobileAPI_Example-Info.plist"; sourceTree = "<group>"; };
+		29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29A36FBD35DD4D26989529EF8FB26B9E /* Pods-ClutchMobileAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClutchMobileAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A38ED7DD61CEECDF8143492B3D2BA43 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		2D382C7C00AECB9300B5353E69AD0351 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		2ECBFE39AE06C43751598C80327CFAB1 /* Pods-ClutchMobileAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClutchMobileAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F5AA5E75B5225CABA5D67542FC40996 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2FBFE89C910AACA96B41F2C1982342C3 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		33423D51FA97C3AF17F8045E98874C0E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		349884ACE31F970ED293E2406E88B9C5 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		38E10C09B0EFD35B20F1E3137A417EEE /* ClutchMobListFieldsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobListFieldsResponse.m; path = ClutchMobileAPI/Classes/ClutchMobListFieldsResponse.m; sourceTree = "<group>"; };
+		3C9D4964CAEA85AC427479FBD4F24E7F /* Pods-ClutchMobileAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClutchMobileAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		4380AEF80628ADE3D82E532B4AC4E6E9 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AE4F417F132C88B53A2E803B5BF221 /* ClutchMobileAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClutchMobileAPI.framework; path = ClutchMobileAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B3FDAC40E27CDCE9F46109884C7116 /* ClutchMobListSubscriptionListsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobListSubscriptionListsResponse.m; path = ClutchMobileAPI/Classes/ClutchMobListSubscriptionListsResponse.m; sourceTree = "<group>"; };
+		45396A09E84346FA3C1B99897B99A49C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4722CFD522370E8E9534FBD67D3FD52F /* ClutchMobSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobSegment.m; path = ClutchMobileAPI/Classes/ClutchMobSegment.m; sourceTree = "<group>"; };
+		4933B223861E9061D6F30615EAE1B131 /* ClutchMobRegisterResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobRegisterResponse.h; path = ClutchMobileAPI/Classes/ClutchMobRegisterResponse.h; sourceTree = "<group>"; };
+		498664D3B449A5837971B4B1A9332BBA /* ClutchMobClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobClient.m; path = ClutchMobileAPI/Classes/ClutchMobClient.m; sourceTree = "<group>"; };
+		4C4710E2429B65EBBE83BC655722E364 /* ClutchMobListFieldsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobListFieldsResponse.h; path = ClutchMobileAPI/Classes/ClutchMobListFieldsResponse.h; sourceTree = "<group>"; };
+		4CA2FD872C765B8D0F7376FE9BB9421F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		5465CE8590F722CC021460F31414436D /* ClutchMobileAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClutchMobileAPI-Info.plist"; sourceTree = "<group>"; };
+		57C42C6882E9A7E08BDA43641056B21E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5DCA9F9F50F9A195E2B327306DECEB86 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5F7AD4878ECFE5ED0A7E82717A421882 /* Pods-ClutchMobileAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClutchMobileAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		61F47B2B8C0F07651B66B74A874DD6F8 /* ClutchMobModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobModel.h; path = ClutchMobileAPI/Classes/ClutchMobModel.h; sourceTree = "<group>"; };
+		627A7C002EEAFF623F952A7C7FD9CCD4 /* Pods_ClutchMobileAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClutchMobileAPI_Tests.framework; path = "Pods-ClutchMobileAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EABE20E7699D756E68596C574DC64C /* Pods-ClutchMobileAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClutchMobileAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		6838A6CC429B4698BEA7AA3E97C4ADAC /* ClutchMobileAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClutchMobileAPI.modulemap; sourceTree = "<group>"; };
+		69FD59887F51875C6C3B8DBAFC8A277E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C216AC70F780504A83F2F5B925B9BBE /* Pods-ClutchMobileAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClutchMobileAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74B5E2A31A9B6FA31D86913EFE8CDB5D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		780C48148F90D2812ECF06AB7C3CD6AF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7875AA2748BDB34F717EC58585A08FCA /* ClutchMobSubscriptionList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobSubscriptionList.m; path = ClutchMobileAPI/Classes/ClutchMobSubscriptionList.m; sourceTree = "<group>"; };
+		796E262F08FC88EF8B38027CB6914287 /* ClutchMobileAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClutchMobileAPI-prefix.pch"; sourceTree = "<group>"; };
+		7AC66F3B348F8B165453B131F6E0BFEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7C448BDD7F9B8CC95CDCD0E1D4DC5C23 /* ClutchMobBasicResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobBasicResponse.h; path = ClutchMobileAPI/Classes/ClutchMobBasicResponse.h; sourceTree = "<group>"; };
+		7E75DF8FAF80B7F6590335A9B7505D34 /* Pods-ClutchMobileAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClutchMobileAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		80302860CC0578355C7EBBED1D349E4D /* Pods-ClutchMobileAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClutchMobileAPI_Example.modulemap"; sourceTree = "<group>"; };
+		81FDE5DAABED7B2C3140A1C2576A556F /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		826E22AB53FCA9E175455D8B268B4E18 /* Pods-ClutchMobileAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClutchMobileAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		836B43DECCDD4E1967A1C66DF27C48F4 /* ClutchMobConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobConstants.h; path = ClutchMobileAPI/Classes/ClutchMobConstants.h; sourceTree = "<group>"; };
+		8590F8C95A1E64C628E46F003A4E9E2B /* ClutchMobProfileViewResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobProfileViewResponse.m; path = ClutchMobileAPI/Classes/ClutchMobProfileViewResponse.m; sourceTree = "<group>"; };
+		879BD0F3E27DA0E763B3909EC1039B5E /* ClutchMobileAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClutchMobileAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88DECC3FA45738FE46BD5624337523FF /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		89D5160ECD11E763B6CE3D5728D032B3 /* ClutchMobBasicResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobBasicResponse.m; path = ClutchMobileAPI/Classes/ClutchMobBasicResponse.m; sourceTree = "<group>"; };
+		8B8879BAE14B5B2328A25426E9F1BF8D /* ClutchMobGetTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobGetTokenResponse.h; path = ClutchMobileAPI/Classes/ClutchMobGetTokenResponse.h; sourceTree = "<group>"; };
+		8C30D0A43736AB87A858498B0EBBB2A9 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		8EAB3563BDC2BD57BFD91BA6D068B038 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		8F5E7B0803818E62B9FD47348C2A238B /* ClutchMobileAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClutchMobileAPI-dummy.m"; sourceTree = "<group>"; };
+		936DD63C5343753610AC4EE3FE4C7183 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		941CC893625440CDF948503F98D627F4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9573F3EAE1FC66B6732A36B22CCA10DC /* ClutchMobileAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClutchMobileAPI.xcconfig; sourceTree = "<group>"; };
+		972338097B3F672E8B236502748E308E /* Pods-ClutchMobileAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClutchMobileAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6FB9A9380AA26CFC887F7DB38B3E3A /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		A40902337D9935689B38EB04F6893D6B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A458885EBFB883695A9539FB7D025D9C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A56D9A44726979698F660DDF09D1BBF1 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		A72729C1DAA8CE050CC613C1B2C81066 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A80D9DC3EBA2BD59D85823B819C9B26F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A9F257614DDC10A38FC35E218CA30520 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		AA5A0E54D5EB56767B27C264A5521B82 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		B07DAA25DDACF2F267D16E34C08A45DC /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		B0B563FA899BCEBF7718DF5CEF1A28D5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F5EAB2B8EBAF56EB6FAAEF85C0DEF9 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		B8C4F74CBA040FB140F5491812E88754 /* ClutchMobClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobClient.h; path = ClutchMobileAPI/Classes/ClutchMobClient.h; sourceTree = "<group>"; };
+		B9BA51B1CD3F539E7009DD576A24446B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		BA27E73804C19D8D975B4AF03A895E3F /* ClutchMobConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobConstants.m; path = ClutchMobileAPI/Classes/ClutchMobConstants.m; sourceTree = "<group>"; };
+		BAAB25F9538BD91CE92501121227669C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C040570BC41FBA560B3A3781090F5429 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C2477F37327F02DDCD438562D9EF5805 /* ClutchMobDemographicField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobDemographicField.h; path = ClutchMobileAPI/Classes/ClutchMobDemographicField.h; sourceTree = "<group>"; };
+		C5AFF3DD4CAF3CCEFC0CB999BBB3E951 /* Pods-ClutchMobileAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClutchMobileAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		C6FF00DC6C0D3D8674AC6937A8BB64B4 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		C8D9023906BDF78712ED36026D054A92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C92E7CAF7A983A4FE801FA47C33BBA66 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		CFDB4BEC0E33AB16EAC218A29E30AB4A /* Pods_ClutchMobileAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClutchMobileAPI_Example.framework; path = "Pods-ClutchMobileAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08BE93AFAC22BCD10FA818D872891FC /* ClutchMobSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobSegment.h; path = ClutchMobileAPI/Classes/ClutchMobSegment.h; sourceTree = "<group>"; };
+		D2025F2006F56478D1A957C93FDA0525 /* Pods-ClutchMobileAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClutchMobileAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D39B21B4849887611AF9063F1C32C31E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		D47159BC79DAFCF8CC17F859D128E446 /* ClutchMobModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobModel.m; path = ClutchMobileAPI/Classes/ClutchMobModel.m; sourceTree = "<group>"; };
+		D656337448518C75ECAF009F4340EDF1 /* ClutchMobileAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClutchMobileAPI-umbrella.h"; sourceTree = "<group>"; };
+		D8DA6593ECEE1267033E50A36D3D5C6A /* ClutchMobSubscriptionList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobSubscriptionList.h; path = ClutchMobileAPI/Classes/ClutchMobSubscriptionList.h; sourceTree = "<group>"; };
+		D8E2415CE1730F4F849A7D35746B6074 /* Pods-ClutchMobileAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClutchMobileAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFED0D5CDD7DD84DEE6AF01F9865DC36 /* ClutchMobListSubscriptionListsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobListSubscriptionListsResponse.h; path = ClutchMobileAPI/Classes/ClutchMobListSubscriptionListsResponse.h; sourceTree = "<group>"; };
+		E9391E424E587915B057DE92DBD5F27E /* ClutchMobRegisterResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobRegisterResponse.m; path = ClutchMobileAPI/Classes/ClutchMobRegisterResponse.m; sourceTree = "<group>"; };
+		E9E378D70A04A02277A1A6C32C81D336 /* ClutchMobCaptchaResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClutchMobCaptchaResponse.h; path = ClutchMobileAPI/Classes/ClutchMobCaptchaResponse.h; sourceTree = "<group>"; };
+		EA9EA0925E714EF20A83A335BDC6A5CF /* ClutchMobDemographicField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClutchMobDemographicField.m; path = ClutchMobileAPI/Classes/ClutchMobDemographicField.m; sourceTree = "<group>"; };
+		EEE098281A0B7E64413EB219D6057D44 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F15F58975DF65033955EC9C92A05B35D /* Pods-ClutchMobileAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClutchMobileAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F16CF6A2CB32FAD110CBC7FDAA8F5B6F /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		F3A59C87DB25F0B3BEDFC9819146737E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		F3F5D7EDC84404E7960D36DF73F7CE89 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		F72B11C0D0219B4B92CD46831F1035DF /* Pods-ClutchMobileAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClutchMobileAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61DD66482A4B33997B2D53EAE732C767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A07A24FBC35BE10BF21C4FAFDB1ADD /* AFNetworking.framework in Frameworks */,
+				9F53687CDD18EDAE3AC193793E930BC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875769B623EC7D8200C4B7F5D03ED2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BA56D7BA0949F47648EA8ADA4669E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF70487F61F01D9FC8370038F6CF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58F6D035390A553D341DA5043D5B71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AB5268D6AF343E5439E9A13526A4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDDE4F974698A2CE0CEE9BDF7699B68 /* CoreGraphics.framework in Frameworks */,
+				802DB88571A957C599E32DFC3067A859 /* Foundation.framework in Frameworks */,
+				909E65FE918C87DB67D5F4031B73E23E /* MobileCoreServices.framework in Frameworks */,
+				6D548145B22BB5FE22DBEB33B8972848 /* Security.framework in Frameworks */,
+				B15F62844F9F93A81BDD97BA997B0D4A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077E62C8697DE97346193B6F7D0CA384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4380AEF80628ADE3D82E532B4AC4E6E9 /* AFNetworking.framework */,
+				FB8FCD97712E84420776F9855D62CA59 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F3F855995D816AA207FBE6CAAB0FF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F257614DDC10A38FC35E218CA30520 /* AFNetworking.modulemap */,
+				81FDE5DAABED7B2C3140A1C2576A556F /* AFNetworking.xcconfig */,
+				1475FEE8A3A1335A102149D45C64FCFB /* AFNetworking-dummy.m */,
+				2FBFE89C910AACA96B41F2C1982342C3 /* AFNetworking-Info.plist */,
+				EEE098281A0B7E64413EB219D6057D44 /* AFNetworking-prefix.pch */,
+				A56D9A44726979698F660DDF09D1BBF1 /* AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		481BD7283BD301AB9260EB8425A8924F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				A72729C1DAA8CE050CC613C1B2C81066 /* AFURLRequestSerialization.h */,
+				941CC893625440CDF948503F98D627F4 /* AFURLRequestSerialization.m */,
+				A80D9DC3EBA2BD59D85823B819C9B26F /* AFURLResponseSerialization.h */,
+				A458885EBFB883695A9539FB7D025D9C /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		4B04E9301FCEAC871F59D718C59E2717 /* Pods-ClutchMobileAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				80302860CC0578355C7EBBED1D349E4D /* Pods-ClutchMobileAPI_Example.modulemap */,
+				2ECBFE39AE06C43751598C80327CFAB1 /* Pods-ClutchMobileAPI_Example-acknowledgements.markdown */,
+				6C216AC70F780504A83F2F5B925B9BBE /* Pods-ClutchMobileAPI_Example-acknowledgements.plist */,
+				C5AFF3DD4CAF3CCEFC0CB999BBB3E951 /* Pods-ClutchMobileAPI_Example-dummy.m */,
+				F15F58975DF65033955EC9C92A05B35D /* Pods-ClutchMobileAPI_Example-frameworks.sh */,
+				273DBD133ECBC1087E1C2A367FC9D99C /* Pods-ClutchMobileAPI_Example-Info.plist */,
+				5F7AD4878ECFE5ED0A7E82717A421882 /* Pods-ClutchMobileAPI_Example-umbrella.h */,
+				F72B11C0D0219B4B92CD46831F1035DF /* Pods-ClutchMobileAPI_Example.debug.xcconfig */,
+				29A36FBD35DD4D26989529EF8FB26B9E /* Pods-ClutchMobileAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-ClutchMobileAPI_Example";
+			path = "Target Support Files/Pods-ClutchMobileAPI_Example";
+			sourceTree = "<group>";
+		};
+		5D1484801C5F9972271E5A6A4ADAB9C9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C040570BC41FBA560B3A3781090F5429 /* AFNetworkReachabilityManager.h */,
+				33423D51FA97C3AF17F8045E98874C0E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6CC165BF55E215E2EE80F2C0A97FC462 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				780C48148F90D2812ECF06AB7C3CD6AF /* AFSecurityPolicy.h */,
+				1C46BF32442A1135CE197A34568A199A /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		715E0A54DD5475C67CDAEC29E3F0F716 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB3563BDC2BD57BFD91BA6D068B038 /* AFCompatibilityMacros.h */,
+				A40902337D9935689B38EB04F6893D6B /* AFHTTPSessionManager.h */,
+				112E556CE822FFB4315E180F032CE79B /* AFHTTPSessionManager.m */,
+				B07DAA25DDACF2F267D16E34C08A45DC /* AFURLSessionManager.h */,
+				F3F5D7EDC84404E7960D36DF73F7CE89 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		8611DC29EE32007462EE53628D3F0FE8 /* Pods-ClutchMobileAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67EABE20E7699D756E68596C574DC64C /* Pods-ClutchMobileAPI_Tests.modulemap */,
+				D8E2415CE1730F4F849A7D35746B6074 /* Pods-ClutchMobileAPI_Tests-acknowledgements.markdown */,
+				0449C59BA44B9F7E5F00208CCEC1C337 /* Pods-ClutchMobileAPI_Tests-acknowledgements.plist */,
+				972338097B3F672E8B236502748E308E /* Pods-ClutchMobileAPI_Tests-dummy.m */,
+				3C9D4964CAEA85AC427479FBD4F24E7F /* Pods-ClutchMobileAPI_Tests-Info.plist */,
+				7E75DF8FAF80B7F6590335A9B7505D34 /* Pods-ClutchMobileAPI_Tests-umbrella.h */,
+				D2025F2006F56478D1A957C93FDA0525 /* Pods-ClutchMobileAPI_Tests.debug.xcconfig */,
+				826E22AB53FCA9E175455D8B268B4E18 /* Pods-ClutchMobileAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-ClutchMobileAPI_Tests";
+			path = "Target Support Files/Pods-ClutchMobileAPI_Tests";
+			sourceTree = "<group>";
+		};
+		8DE8DEEA01325578413B645CA44AB8B9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D382C7C00AECB9300B5353E69AD0351 /* AFAutoPurgingImageCache.h */,
+				74B5E2A31A9B6FA31D86913EFE8CDB5D /* AFAutoPurgingImageCache.m */,
+				8C30D0A43736AB87A858498B0EBBB2A9 /* AFImageDownloader.h */,
+				9E6FB9A9380AA26CFC887F7DB38B3E3A /* AFImageDownloader.m */,
+				B9BA51B1CD3F539E7009DD576A24446B /* AFNetworkActivityIndicatorManager.h */,
+				D39B21B4849887611AF9063F1C32C31E /* AFNetworkActivityIndicatorManager.m */,
+				B7F5EAB2B8EBAF56EB6FAAEF85C0DEF9 /* UIActivityIndicatorView+AFNetworking.h */,
+				F16CF6A2CB32FAD110CBC7FDAA8F5B6F /* UIActivityIndicatorView+AFNetworking.m */,
+				15065CA242F31C9C416EFF4B7BAA2F6B /* UIButton+AFNetworking.h */,
+				AA5A0E54D5EB56767B27C264A5521B82 /* UIButton+AFNetworking.m */,
+				C92E7CAF7A983A4FE801FA47C33BBA66 /* UIImage+AFNetworking.h */,
+				57C42C6882E9A7E08BDA43641056B21E /* UIImageView+AFNetworking.h */,
+				349884ACE31F970ED293E2406E88B9C5 /* UIImageView+AFNetworking.m */,
+				BAAB25F9538BD91CE92501121227669C /* UIKit+AFNetworking.h */,
+				2A38ED7DD61CEECDF8143492B3D2BA43 /* UIProgressView+AFNetworking.h */,
+				4CA2FD872C765B8D0F7376FE9BB9421F /* UIProgressView+AFNetworking.m */,
+				16BAF235D6C6151852641F560F429049 /* UIRefreshControl+AFNetworking.h */,
+				936DD63C5343753610AC4EE3FE4C7183 /* UIRefreshControl+AFNetworking.m */,
+				88DECC3FA45738FE46BD5624337523FF /* UIWebView+AFNetworking.h */,
+				C6FF00DC6C0D3D8674AC6937A8BB64B4 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		98F993076C317419FB9EF7A1CCC070E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B04E9301FCEAC871F59D718C59E2717 /* Pods-ClutchMobileAPI_Example */,
+				8611DC29EE32007462EE53628D3F0FE8 /* Pods-ClutchMobileAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A27DD696E16B8A8667FC45C8F0ED124 /* ClutchMobileAPI */ = {
+			isa = PBXGroup;
+			children = (
+				7C448BDD7F9B8CC95CDCD0E1D4DC5C23 /* ClutchMobBasicResponse.h */,
+				89D5160ECD11E763B6CE3D5728D032B3 /* ClutchMobBasicResponse.m */,
+				E9E378D70A04A02277A1A6C32C81D336 /* ClutchMobCaptchaResponse.h */,
+				1739735275E97F0D2EA314ACC493317E /* ClutchMobCaptchaResponse.m */,
+				B8C4F74CBA040FB140F5491812E88754 /* ClutchMobClient.h */,
+				498664D3B449A5837971B4B1A9332BBA /* ClutchMobClient.m */,
+				836B43DECCDD4E1967A1C66DF27C48F4 /* ClutchMobConstants.h */,
+				BA27E73804C19D8D975B4AF03A895E3F /* ClutchMobConstants.m */,
+				C2477F37327F02DDCD438562D9EF5805 /* ClutchMobDemographicField.h */,
+				EA9EA0925E714EF20A83A335BDC6A5CF /* ClutchMobDemographicField.m */,
+				8B8879BAE14B5B2328A25426E9F1BF8D /* ClutchMobGetTokenResponse.h */,
+				15E1898A66CDD6FFC94A117A6F60BB2C /* ClutchMobGetTokenResponse.m */,
+				4C4710E2429B65EBBE83BC655722E364 /* ClutchMobListFieldsResponse.h */,
+				38E10C09B0EFD35B20F1E3137A417EEE /* ClutchMobListFieldsResponse.m */,
+				DFED0D5CDD7DD84DEE6AF01F9865DC36 /* ClutchMobListSubscriptionListsResponse.h */,
+				44B3FDAC40E27CDCE9F46109884C7116 /* ClutchMobListSubscriptionListsResponse.m */,
+				61F47B2B8C0F07651B66B74A874DD6F8 /* ClutchMobModel.h */,
+				D47159BC79DAFCF8CC17F859D128E446 /* ClutchMobModel.m */,
+				23090D0BF1996A5B1A5B5A45FF9455BF /* ClutchMobProfileViewResponse.h */,
+				8590F8C95A1E64C628E46F003A4E9E2B /* ClutchMobProfileViewResponse.m */,
+				4933B223861E9061D6F30615EAE1B131 /* ClutchMobRegisterResponse.h */,
+				E9391E424E587915B057DE92DBD5F27E /* ClutchMobRegisterResponse.m */,
+				D08BE93AFAC22BCD10FA818D872891FC /* ClutchMobSegment.h */,
+				4722CFD522370E8E9534FBD67D3FD52F /* ClutchMobSegment.m */,
+				D8DA6593ECEE1267033E50A36D3D5C6A /* ClutchMobSubscriptionList.h */,
+				7875AA2748BDB34F717EC58585A08FCA /* ClutchMobSubscriptionList.m */,
+				D7C3A6CF65396E857805DD5D0AA0DEFC /* Pod */,
+				9E75FD80414C4A03D9091CB6E79191B6 /* Support Files */,
+			);
+			name = ClutchMobileAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E75FD80414C4A03D9091CB6E79191B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6838A6CC429B4698BEA7AA3E97C4ADAC /* ClutchMobileAPI.modulemap */,
+				9573F3EAE1FC66B6732A36B22CCA10DC /* ClutchMobileAPI.xcconfig */,
+				8F5E7B0803818E62B9FD47348C2A238B /* ClutchMobileAPI-dummy.m */,
+				5465CE8590F722CC021460F31414436D /* ClutchMobileAPI-Info.plist */,
+				796E262F08FC88EF8B38027CB6914287 /* ClutchMobileAPI-prefix.pch */,
+				D656337448518C75ECAF009F4340EDF1 /* ClutchMobileAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ClutchMobileAPI";
+			sourceTree = "<group>";
+		};
+		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB8D87F26376529F910C75A4D3A57C76 /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E439ED8384F32FBF53B83EC63A814B42 /* Development Pods */,
+				077E62C8697DE97346193B6F7D0CA384 /* Frameworks */,
+				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
+				F9A9260FEA3185AAC5BD085CC19209DA /* Products */,
+				98F993076C317419FB9EF7A1CCC070E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C3A6CF65396E857805DD5D0AA0DEFC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				879BD0F3E27DA0E763B3909EC1039B5E /* ClutchMobileAPI.podspec */,
+				45396A09E84346FA3C1B99897B99A49C /* LICENSE */,
+				69FD59887F51875C6C3B8DBAFC8A277E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E439ED8384F32FBF53B83EC63A814B42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A27DD696E16B8A8667FC45C8F0ED124 /* ClutchMobileAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EB8D87F26376529F910C75A4D3A57C76 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F3A59C87DB25F0B3BEDFC9819146737E /* AFNetworking.h */,
+				715E0A54DD5475C67CDAEC29E3F0F716 /* NSURLSession */,
+				5D1484801C5F9972271E5A6A4ADAB9C9 /* Reachability */,
+				6CC165BF55E215E2EE80F2C0A97FC462 /* Security */,
+				481BD7283BD301AB9260EB8425A8924F /* Serialization */,
+				30F3F855995D816AA207FBE6CAAB0FF2 /* Support Files */,
+				8DE8DEEA01325578413B645CA44AB8B9 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F9A9260FEA3185AAC5BD085CC19209DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B563FA899BCEBF7718DF5CEF1A28D5 /* AFNetworking.framework */,
+				44AE4F417F132C88B53A2E803B5BF221 /* ClutchMobileAPI.framework */,
+				CFDB4BEC0E33AB16EAC218A29E30AB4A /* Pods_ClutchMobileAPI_Example.framework */,
+				627A7C002EEAFF623F952A7C7FD9CCD4 /* Pods_ClutchMobileAPI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8FCD97712E84420776F9855D62CA59 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AC66F3B348F8B165453B131F6E0BFEC /* CoreGraphics.framework */,
+				29670A9A26E9266FE6E8455C11E3127C /* Foundation.framework */,
+				2F5AA5E75B5225CABA5D67542FC40996 /* MobileCoreServices.framework */,
+				C8D9023906BDF78712ED36026D054A92 /* Security.framework */,
+				5DCA9F9F50F9A195E2B327306DECEB86 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F2DE759AADC5B21B047684E94EE34B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A383AB1997536003285834D72F051 /* AFAutoPurgingImageCache.h in Headers */,
+				CCC9E08DD50A9AC4E57BC0B0B1611B77 /* AFCompatibilityMacros.h in Headers */,
+				3B72168E0471BCCA675316F434E6309A /* AFHTTPSessionManager.h in Headers */,
+				9EEA38B7403F720407C2D6F7A1473F16 /* AFImageDownloader.h in Headers */,
+				B4D91D1BD4D345ACCA8A68574A51402A /* AFNetworkActivityIndicatorManager.h in Headers */,
+				E9F1C3AE93A968E328E7FDDB1E16D9A3 /* AFNetworking-umbrella.h in Headers */,
+				394922DA356F67BB8E9F59DBA22788B0 /* AFNetworking.h in Headers */,
+				23BAE704D80EB1EB00E8AD2B7284BFF0 /* AFNetworkReachabilityManager.h in Headers */,
+				C860803EFE2211C1F381F22011B20727 /* AFSecurityPolicy.h in Headers */,
+				4A1417AF315966324D24AF074B1E9D88 /* AFURLRequestSerialization.h in Headers */,
+				1183366CBC8FF8DCE67F6C938424C13A /* AFURLResponseSerialization.h in Headers */,
+				D94B2A37FC96BE94D8FD5E4E3D2983BA /* AFURLSessionManager.h in Headers */,
+				A70563660986C955E813E136DBBF5236 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				DB1A6DD6CE64AE9764BC63D613A4FDF8 /* UIButton+AFNetworking.h in Headers */,
+				3E00573A4CACBE826D25135875C6F3E4 /* UIImage+AFNetworking.h in Headers */,
+				D127F3ECC81EB2E08CE9435AF24CCAF4 /* UIImageView+AFNetworking.h in Headers */,
+				687FD04FEAFE2C7B06220D69E626D6CE /* UIKit+AFNetworking.h in Headers */,
+				B79E6AD5BFBD3B2E9319650F5131A59C /* UIProgressView+AFNetworking.h in Headers */,
+				96EB8ECEF89CF095DFBB2114C66A0BEC /* UIRefreshControl+AFNetworking.h in Headers */,
+				03760110B091E68219A3F8F99F5D9257 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F105EDF9CE735356AE623273D265223 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BFD3F52D7CEBAB3A19FC94845D56CA /* Pods-ClutchMobileAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6F8FF1E3AB8544649B8C0A0F71E137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E301A328C7436D96E8C7F83D7385A5 /* Pods-ClutchMobileAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7EE548394E824A26C89921CBA9DCD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F4C091A5BF7EECE2DD5B6EEC5B13F1 /* ClutchMobBasicResponse.h in Headers */,
+				C3F26FE59CD2A3DA5C6652681D60DE91 /* ClutchMobCaptchaResponse.h in Headers */,
+				9B4CCED4958CB57781A39B2276CD4570 /* ClutchMobClient.h in Headers */,
+				6B6EC17C6F98E8B5979DC6871D44CF8A /* ClutchMobConstants.h in Headers */,
+				7346246CC8456D74F76A6092785541D7 /* ClutchMobDemographicField.h in Headers */,
+				771739A370C0A1194352CC4F32465A25 /* ClutchMobGetTokenResponse.h in Headers */,
+				23970E56AA6AAFD72C54A99D95A0B930 /* ClutchMobileAPI-umbrella.h in Headers */,
+				E29EC5F78FC668093660D3C5B6BA2E24 /* ClutchMobListFieldsResponse.h in Headers */,
+				1C2E03B50F8E420E95142CAD20559128 /* ClutchMobListSubscriptionListsResponse.h in Headers */,
+				B4CBF5367C788606EFF71C7C2A0EFCD9 /* ClutchMobModel.h in Headers */,
+				B16B6009BBD9B7C5D3C8220BBE7579A0 /* ClutchMobProfileViewResponse.h in Headers */,
+				C930FF57A44425E7E27C12F270FCD6B1 /* ClutchMobRegisterResponse.h in Headers */,
+				7B78A403C7E088FB2EF8F84CDB581E75 /* ClutchMobSegment.h in Headers */,
+				523D9F700D286A76454F1DD547E9443C /* ClutchMobSubscriptionList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				1F2DE759AADC5B21B047684E94EE34B1 /* Headers */,
+				E566890560D1E9E2C4D034BBC2EDD489 /* Sources */,
+				E3AB5268D6AF343E5439E9A13526A4C6 /* Frameworks */,
+				FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = B0B563FA899BCEBF7718DF5CEF1A28D5 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		571021EB556A8437F3BB0AD1E3C48B31 /* ClutchMobileAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36E0B4D8BC0492017DD8B98E28291C9 /* Build configuration list for PBXNativeTarget "ClutchMobileAPI" */;
+			buildPhases = (
+				DD7EE548394E824A26C89921CBA9DCD3 /* Headers */,
+				09712B469989364BDCA2D962BB5904E5 /* Sources */,
+				61DD66482A4B33997B2D53EAE732C767 /* Frameworks */,
+				837AADB3CD206D9AC305B538251727AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334E49BD434CD6DE46CC05E559801E64 /* PBXTargetDependency */,
+			);
+			name = ClutchMobileAPI;
+			productName = ClutchMobileAPI;
+			productReference = 44AE4F417F132C88B53A2E803B5BF221 /* ClutchMobileAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7634D897FD82892577969103C27A4CD /* Pods-ClutchMobileAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244DF0638E986EAE30D08D8089B9D4FA /* Build configuration list for PBXNativeTarget "Pods-ClutchMobileAPI_Example" */;
+			buildPhases = (
+				2F105EDF9CE735356AE623273D265223 /* Headers */,
+				1D24C4AA5731E5875BF618DCAED1EBEF /* Sources */,
+				875769B623EC7D8200C4B7F5D03ED2CA /* Frameworks */,
+				3AD670B0E074B0B238ADCDBE4435AF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3AEC3961E3FDCA91547A75BB5139C0F /* PBXTargetDependency */,
+				9C02BB5AF8A4D7346EF82220BA507881 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClutchMobileAPI_Example";
+			productName = "Pods-ClutchMobileAPI_Example";
+			productReference = CFDB4BEC0E33AB16EAC218A29E30AB4A /* Pods_ClutchMobileAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F374CC552E81E098AE95380206A98083 /* Pods-ClutchMobileAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76393BCFE9042F6988D4B038CBCFD4FA /* Build configuration list for PBXNativeTarget "Pods-ClutchMobileAPI_Tests" */;
+			buildPhases = (
+				4A6F8FF1E3AB8544649B8C0A0F71E137 /* Headers */,
+				8192EB9B1CD162BB5F675FB7B09DA163 /* Sources */,
+				98DF70487F61F01D9FC8370038F6CF37 /* Frameworks */,
+				8EB9D8D8BF8221ABA42C41290F1F5D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5884A4259D29842CEE350758BE2FDA5A /* PBXTargetDependency */,
+			);
+			name = "Pods-ClutchMobileAPI_Tests";
+			productName = "Pods-ClutchMobileAPI_Tests";
+			productReference = 627A7C002EEAFF623F952A7C7FD9CCD4 /* Pods_ClutchMobileAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F9A9260FEA3185AAC5BD085CC19209DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				571021EB556A8437F3BB0AD1E3C48B31 /* ClutchMobileAPI */,
+				D7634D897FD82892577969103C27A4CD /* Pods-ClutchMobileAPI_Example */,
+				F374CC552E81E098AE95380206A98083 /* Pods-ClutchMobileAPI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD670B0E074B0B238ADCDBE4435AF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837AADB3CD206D9AC305B538251727AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB9D8D8BF8221ABA42C41290F1F5D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09712B469989364BDCA2D962BB5904E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFE77ACCD3A26F3A8FB561C2B0CBEA7 /* ClutchMobBasicResponse.m in Sources */,
+				8905581A1156D922B469116DEC22B560 /* ClutchMobCaptchaResponse.m in Sources */,
+				C7F7A454D6FC7185FAC9A4D6D21CAB0F /* ClutchMobClient.m in Sources */,
+				FBBFA108618E8D2B174459E4703D39F3 /* ClutchMobConstants.m in Sources */,
+				A47CF1690BE2B3BE94710B49BE077282 /* ClutchMobDemographicField.m in Sources */,
+				0B1098FB9BA9E6027A5326B6E724ACDB /* ClutchMobGetTokenResponse.m in Sources */,
+				EC2504ABABC8EFE16004E15274DBB5BD /* ClutchMobileAPI-dummy.m in Sources */,
+				2B81585E9941C5215CA0DE02B18B1886 /* ClutchMobListFieldsResponse.m in Sources */,
+				97B26998B6675BD887A9E4B8D79FAC7F /* ClutchMobListSubscriptionListsResponse.m in Sources */,
+				A76E71AC40B38F8DADC18944469F9BD7 /* ClutchMobModel.m in Sources */,
+				83A0CE7C533A9309DB65CD0A1CCBEC2A /* ClutchMobProfileViewResponse.m in Sources */,
+				2C4D6F1C0BFB524FC877CCB9935270FB /* ClutchMobRegisterResponse.m in Sources */,
+				9A5A186A2D5B7F2A1A27A9778798B733 /* ClutchMobSegment.m in Sources */,
+				CE77960785272918CB9A20C35B75E8A5 /* ClutchMobSubscriptionList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24C4AA5731E5875BF618DCAED1EBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF6C2D88B6F9B3AD3A9E0E56E409217 /* Pods-ClutchMobileAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192EB9B1CD162BB5F675FB7B09DA163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126D78B4B2D94E9CCA38BD1D71AD6919 /* Pods-ClutchMobileAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E566890560D1E9E2C4D034BBC2EDD489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0957074D4946DEA106E71DBC2ED97125 /* AFAutoPurgingImageCache.m in Sources */,
+				2BE8C3875149F0983899A237DEC0D630 /* AFHTTPSessionManager.m in Sources */,
+				99AFC32DE6932AED9B73E23C99BF243E /* AFImageDownloader.m in Sources */,
+				11B7AD13B589DCD4947267755B959A00 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				2322F574FD2D311F0E5DC64B41DA9E46 /* AFNetworking-dummy.m in Sources */,
+				B3EF00F5784F6ABB87B2AE0F6624987D /* AFNetworkReachabilityManager.m in Sources */,
+				2C3501C9A2D6EC9AF14366A00FC1EBB0 /* AFSecurityPolicy.m in Sources */,
+				C19BBA932C8C58458241A12380947E16 /* AFURLRequestSerialization.m in Sources */,
+				88BADC0FE3407C90020DC2E773CF49F4 /* AFURLResponseSerialization.m in Sources */,
+				70332DFCEBB1A0538FA67CD834DE6DC2 /* AFURLSessionManager.m in Sources */,
+				0AC69DB42387C75431772FCD85E77E14 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				0BE1AFBD1F4545D10076DE25EC561272 /* UIButton+AFNetworking.m in Sources */,
+				DE56753C58D46A10761C5ADC7D4917F9 /* UIImageView+AFNetworking.m in Sources */,
+				3F56102CA7579C84B55BB943E0D2CBE2 /* UIProgressView+AFNetworking.m in Sources */,
+				DBE31A969A113E4E9E1D3B39C4333BD3 /* UIRefreshControl+AFNetworking.m in Sources */,
+				E3557DF9F7C6966ADD524DB4F4E451DB /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334E49BD434CD6DE46CC05E559801E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = D7ECFB494CE7E3A14F56BE59E3711F5E /* PBXContainerItemProxy */;
+		};
+		5884A4259D29842CEE350758BE2FDA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ClutchMobileAPI_Example";
+			target = D7634D897FD82892577969103C27A4CD /* Pods-ClutchMobileAPI_Example */;
+			targetProxy = AB900C8F52D52A0B309F8D531C56B7FC /* PBXContainerItemProxy */;
+		};
+		9C02BB5AF8A4D7346EF82220BA507881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClutchMobileAPI;
+			target = 571021EB556A8437F3BB0AD1E3C48B31 /* ClutchMobileAPI */;
+			targetProxy = 12299BC40339CBFA4B7F74DFC2F4CF74 /* PBXContainerItemProxy */;
+		};
+		B3AEC3961E3FDCA91547A75BB5139C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 4B51EA3D157D830FA8B1AD372060B42D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1641BB152B162BDF82015E98A0A566F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72B11C0D0219B4B92CD46831F1035DF /* Pods-ClutchMobileAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClutchMobileAPI_Example/Pods-ClutchMobileAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClutchMobileAPI_Example/Pods-ClutchMobileAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		219BD85F5E32806DC63339099593D723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9573F3EAE1FC66B6732A36B22CCA10DC /* ClutchMobileAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI.modulemap";
+				PRODUCT_MODULE_NAME = ClutchMobileAPI;
+				PRODUCT_NAME = ClutchMobileAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25259C4B04F845F62FBAD8410F3FE6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826E22AB53FCA9E175455D8B268B4E18 /* Pods-ClutchMobileAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClutchMobileAPI_Tests/Pods-ClutchMobileAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClutchMobileAPI_Tests/Pods-ClutchMobileAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		648C4FF3C90928E9944F0DE4A75005FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2025F2006F56478D1A957C93FDA0525 /* Pods-ClutchMobileAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClutchMobileAPI_Tests/Pods-ClutchMobileAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClutchMobileAPI_Tests/Pods-ClutchMobileAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACFDA5B038FA334C84841258BDB65675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A36FBD35DD4D26989529EF8FB26B9E /* Pods-ClutchMobileAPI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClutchMobileAPI_Example/Pods-ClutchMobileAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClutchMobileAPI_Example/Pods-ClutchMobileAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B752D113F577281207B4C492155C214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FDE5DAABED7B2C3140A1C2576A556F /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB16D85F8785A660657AD0B21219443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9573F3EAE1FC66B6732A36B22CCA10DC /* ClutchMobileAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClutchMobileAPI/ClutchMobileAPI.modulemap";
+				PRODUCT_MODULE_NAME = ClutchMobileAPI;
+				PRODUCT_NAME = ClutchMobileAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5A14DB591B5B224A5DE3711D9311E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FDE5DAABED7B2C3140A1C2576A556F /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B752D113F577281207B4C492155C214F /* Debug */,
+				F5A14DB591B5B224A5DE3711D9311E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244DF0638E986EAE30D08D8089B9D4FA /* Build configuration list for PBXNativeTarget "Pods-ClutchMobileAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1641BB152B162BDF82015E98A0A566F8 /* Debug */,
+				ACFDA5B038FA334C84841258BDB65675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76393BCFE9042F6988D4B038CBCFD4FA /* Build configuration list for PBXNativeTarget "Pods-ClutchMobileAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648C4FF3C90928E9944F0DE4A75005FE /* Debug */,
+				25259C4B04F845F62FBAD8410F3FE6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36E0B4D8BC0492017DD8B98E28291C9 /* Build configuration list for PBXNativeTarget "ClutchMobileAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16D85F8785A660657AD0B21219443D /* Debug */,
+				219BD85F5E32806DC63339099593D723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
